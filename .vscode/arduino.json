@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "COM5",
+    "sketch": "SparkFun_HX711_CalibrationDerek.ino"
+}
