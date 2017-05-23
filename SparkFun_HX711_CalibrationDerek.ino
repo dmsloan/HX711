@@ -22,8 +22,8 @@
  This example code uses bogde's excellent library: https://github.com/bogde/HX711
  bogde's library is released under a GNU GENERAL PUBLIC LICENSE
 
- Arduino pin 2 -> HX711 CLK
- 3 -> DOUT
+ Arduino pin 3 -> HX711 CLK
+ 12 -> DOUT
  5V -> VCC
  GND -> GND
  
@@ -39,7 +39,7 @@
 
 // initialize the HX711 library with the numbers of the interface pins
 #define DOUT  12
-#define CLK  11
+#define CLK  3
 
 HX711 scale(DOUT, CLK);
 
