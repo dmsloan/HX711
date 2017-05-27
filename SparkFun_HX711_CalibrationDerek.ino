@@ -4,7 +4,9 @@
  SparkFun Electronics
  Date: November 19th, 2014
  License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
- 
+
+Modified by Derek to include a LiquidCrystal display and five button shield.
+
  This is the calibration sketch. Use it to determine the calibration_factor that the main example uses. It also
  outputs the zero_factor useful for projects that have a permanent mass on the scale in between power cycles.
  
@@ -22,12 +24,13 @@
  This example code uses bogde's excellent library: https://github.com/bogde/HX711
  bogde's library is released under a GNU GENERAL PUBLIC LICENSE
 
- Arduino pin 3 -> HX711 CLK
+ Arduino pin 
+ 3 -> HX711 CLK
  12 -> DOUT
  5V -> VCC
  GND -> GND
  
- Most any pin on the Arduino Uno will be compatible with DOUT/CLK.
+ Most any pin on the Arduino Uno will be compatible with DOUT/CLK for the HX711.
  
  The HX711 board can be powered from 2.7V to 5V so the Arduino 5V power should be fine.
  
